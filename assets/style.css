@@ -1,0 +1,15 @@
+/* Minimal styling for PHP frontend */
+body { font-family: Arial, sans-serif; background:#f6f7fb; color:#222; }
+.container { max-width:900px; margin:30px auto; background:#fff; padding:20px; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+h1 { margin-top:0 }
+form { margin:10px 0 20px 0 }
+label { display:block; margin:8px 0 }
+input, select { padding:8px; width:100%; max-width:400px; box-sizing:border-box }
+button { padding:8px 12px; margin-top:8px }
+table { width:100%; border-collapse:collapse; margin-top:12px }
+table th, table td { border:1px solid #eee; padding:8px; text-align:left }
+.nav { margin:8px 0 }
+.nav a { margin-right:10px }
+.error { color:#b00020 }
+.success { color:#1a7f37 }
+details summary { cursor:pointer; color:#0366d6 }
